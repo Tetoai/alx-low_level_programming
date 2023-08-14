@@ -1,11 +1,10 @@
 #include <stdio.h>
-
 /**
- * main - prints all possible combinations of a pair of two digitd without any repetition.
+ * main - prints all possible combinations of a
+ * pair of two digitd without any repetition.
  *
  * Return: 0 on success
  */
-
 int main(void)
 {
 	int i, j;
