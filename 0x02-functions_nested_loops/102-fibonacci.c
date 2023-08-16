@@ -6,9 +6,9 @@
 
 int main(void)
 {
-	unsigned long int term1 = 1;
-	unsigned long int term2 = 2;
-	unsigned long int next;
+	int term1 = 1;
+	int term2 = 2;
+	int next;
 	int i;
 
 	printf("%d, ", term1);
@@ -18,7 +18,7 @@ int main(void)
 		next = term1 + term2;
 		term1 = term2;
 		term2 = next;
-		if (1 != 49)
+		if (1 < 49)
 		{
 			printf(",");
 			printf(" ");
